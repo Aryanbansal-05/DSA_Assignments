@@ -18,7 +18,7 @@ Node* intersection(Node *A, Node *B) {
 		Node* secondCurrNode = B;
 		while (secondCurrNode != NULL) {
 			if (firstCurrNode == secondCurrNode) {
-				return secondCurrNode;
+				return secondCurrNode; 
 			}
 			secondCurrNode = secondCurrNode->next;
 		}
@@ -53,5 +53,5 @@ int main() {
 
     return 0;
 
-    return 0;
+
 }
